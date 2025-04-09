@@ -1,0 +1,77 @@
+# Arquivos de byte compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de extensão C
+*.so
+
+# Distribuição / Empacotamento
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.env
+.venv
+.Python
+env/
+
+# Arquivos de teste unitário / cobertura
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# IDEs e editores
+# Pycharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Arquivos específicos deste projeto
+*.txt
+!requirements.txt
+*.png
+performance_*.png
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
